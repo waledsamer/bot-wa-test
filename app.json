@@ -1,0 +1,93 @@
+{
+    "name": "TONY-MD",
+    "description": "TONY-MD  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://telegra.ph/Waleed-bot-10-07",
+    "keywords": ["whatsapp", "userbot", "bobiz", "bot", "ai" , "MD" ],
+    "repository": "https://github.com/bobizbotmd/BOBIZ-MD",
+    "website":   "",
+    "success_url": "",
+    "stack": "container",
+     "env": {
+            "BOBIZ_SESSION": {
+            "description": "qr session code",
+            "required": true
+             },
+             
+           
+           "URL_1NAME": {
+            "description": "",
+            "value": "Facebook Waleed" ,
+            "required": true
+      },
+           "URL_1LINK": {
+            "description": "",
+            "value": "https://www.facebook.com/profile.php?id=100039170449874" ,
+            "required": true
+      },
+     "URL_2NAME": {
+            "description": "",
+            "value": "Whatsapp Waleed" ,
+            "required": true
+      },
+       "URL_2LINK": {
+            "description": "",
+            "value": "https://api.whatsapp.com/send?phone=+201283988563" ,
+            "required": true
+      },
+      
+      "ALIVE_MESSAGE": {
+            "description": "add text",
+            "value": "defaul", 
+            "required": true
+      },
+      "ALIVE_LOGO": {
+            "description": "add direct image url",
+            "value": "https://telegra.ph/Waleed-bot-10-07" ,
+            "required": true
+      },
+     
+       "SONG_DOWN": {
+            "description": "song downloading text",
+            "value": "جاري تحميل الموسيقى الان..🎶✅" ,
+            "required": true
+      }, 
+        "SONG_UP": {
+            "description": "song uploading text",
+            "value": "جاري إرسال الموسيقى الان..🎶✅" ,
+            "required": true
+      },
+          "VIDEO_DOWN": {
+            "description": "video downloading text",
+            "value": "جاري تحميل الفيديو الان..🎬✅" ,
+            "required": true
+      },
+          "VIDEO_UP": {
+            "description": "video uploading text",
+            "value": "جاري إرسال الفيديو الان..🎬✅" ,
+            "required": true
+      },
+          "FILE_DOWN": {
+            "description": "file downloading text",
+            "value": "جاري تحميل الملف الان..✅" ,
+            "required": true
+      },
+          "FILE_UP": {
+            "description": "file uploading text",
+            "value": "جاري إرسال الملف الان..📂✅" ,
+            "required": true
+      },
+          "STIC_WM": {
+            "description": "حقوق الملصق. 🩹",
+            "value": "Bot Waleed "01283988563"" ,
+            "required": true
+      }
+         
+        
+     },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
